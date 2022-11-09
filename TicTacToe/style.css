@@ -42,7 +42,7 @@ body {
 section {
     text-align: center;
 }
-#smallText{
+.smallText{
     font-size: xx-small;
-    text-decoration: bisque;
+    color: red;
 }
