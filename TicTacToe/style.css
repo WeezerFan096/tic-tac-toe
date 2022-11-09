@@ -1,0 +1,48 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "what know ea"
+    "ea what know"
+    "know ea what"
+    ;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+body {
+    background-image: url("./limnal1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: beige;
+
+  }
+.cell {
+    border: red 5px solid;
+    font-size: 70px;
+    width: 100px;
+    height: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.titleText{
+    font-size: 3cm;
+    font-family: fantasy;
+}
+
+.theAcutalGame{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+}
+section {
+    text-align: center;
+}
+#smallText{
+    font-size: xx-small;
+    text-decoration: bisque;
+}
